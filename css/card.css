@@ -1,6 +1,6 @@
 .card-4 {
     position: relative;
-    width: 15em;
+    width: 70em;
     margin: 0 auto;
     overflow: hidden;
     cursor: pointer;
@@ -22,7 +22,7 @@
     width: 100%;
     height: 35%;
     padding: 0.4em 0;
-    background: #fff;
+    background: #676767;
     transition: 0.3s;
 }
 
@@ -34,12 +34,12 @@
 .post-day {
     padding: 0 0.3em;
     margin: 0;
-    font-size: 0.8em;
+    font-size: 3em;
     line-height: 1.5;
 }
 
 .post-day {
     padding: 0 0.3em;
-    font-size: 0.6em;
-    color: #777;
+    font-size: 1em;
+    color: #c2c03b;
 }
