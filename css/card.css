@@ -1,6 +1,28 @@
-.card-4 {
+@media screen and (max-width: 1279px) {
+    .pc-card-4 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .sp-card-4 {
+        display: none;
+    }
+}
+
+.pc-card-4 {
     position: relative;
     width: 70em;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0.5px solid #e9eaea;
+    border-radius: 3px;
+}
+
+.sp-card-4 {
+    position: relative;
+    width: 40em;
     margin: 0 auto;
     overflow: hidden;
     cursor: pointer;
@@ -26,7 +48,11 @@
     transition: 0.3s;
 }
 
-.card-4:hover .content {
+.pc-card-4:hover .content {
+    bottom: 0;
+}
+
+.sp-card-4:hover .content {
     bottom: 0;
 }
 
