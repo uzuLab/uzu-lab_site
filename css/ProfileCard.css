@@ -1,0 +1,27 @@
+@media screen and (max-width: 1279px) {
+    .pc-profile-card {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .sp-profile-card {
+        display: none;
+    }
+}
+
+.pc-profile-card {
+    width: 300px;
+    height: 350px;
+    background-color: burlywood;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+}
+
+.sp-profile-card {
+    width: 220px;
+    height: 350px;
+    background-color: burlywood;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+}
