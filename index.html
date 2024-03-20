@@ -1,157 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>渦Lab</title>
-    <link rel="icon" href="image/favicon.ico" sizes="any">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/button_design.css">
-    <link rel="stylesheet" href="css/menber_image.css">
-    <link rel="stylesheet" href="css/WorkCard.css">
-    <link rel="stylesheet" href="css/ProfileCard.css">
+    <link rel="icon" href="image/favicon.ico" sizes="any">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menbercard.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/workcard.css">
 </head>
 
-<body>
-    <div class="pc-header">
+<body align="center">
+    <div class="kasaneru">
+        <img src="image/渦Lab BackgroundImage.png">
         <table>
             <tr>
                 <th>
-                    <img src="image/5iwr0G1NDTjoIWa1690701185.png">
+                    <a href="#about" class="button-28">
+                        <img src="image/渦LAB_icon.png" style="width: 70px; height: 70px;">
+                        <h2>渦Labとは</h2>
+                    </a>
                 </th>
                 <th>
-                    <div class="button021">
-                        <a href="#target1">活動</a>
-                    </div>
+                    <a href="#menber" class="button-28">
+                        <img src="image/tab-menber.png" style="width: 75px; height: 75px;">
+                        <h2>メンバー</h2>
+                    </a>
                 </th>
                 <th>
-                    <div class="button021">
-                        <a href="#target2">メンバー</a>
-                    </div>
-                </th>
-                <th>
-                    <div class="button021">
-                        <a href="#target3">制作</a>
-                    </div>
-                </th>
-                <th>
-                    <div class="button021">
-                        <a onclick="window.location.href='https://uzulab.github.io/uzu-lab_site/rule.html';">ルール</a>
-                    </div>
+                    <a href="#Achievements" class="button-28">
+                        <img src="image/tab-開発実績.png" style="width: 75px; height: 75px;">
+                        <h2>開発実績</h2>
+                    </a>
                 </th>
             </tr>
         </table>
     </div>
 
-    <main align="center">
-        <h1 style="font-size: 60px;">渦Labへようこそ</h1>
-        <img src="image/渦LAB_icon.png">
-        <p style="height: 50px;">
-        <h1 style="font-size: 30px;" id="target1">渦Labとは？</h1>
-        <h4>アプリ制作のために生まれてきたコミュニティです。<p>作成したアプリはLT大会や様々な場面で発表をすることもあります。
-            <p>プログラミングが得意な人が
-            <p>自分の力を最大限発揮できるコミュニティを目指しております
-        </h4>
-        <p style="height: 100px;">
-        <h1 id="target2">メンバー</h1>
-        <table align="center">
-            <tr>
-                <th>
-                    <div class="pc-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Kaito.PNG" alt="画像の説明"></div>
-                        <h3>Kaito<p>創設者 iOS開発メンバー</h3>
-                        <a onclick="window.location.href='https://github.com/kojake';"><img style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
-                    </div>
-                    <div class="sp-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Kaito.PNG" alt="画像の説明"></div>
-                        <h3>Kaito<p>創設者 iOS開発メンバー</h3>
-                        <a onclick="window.location.href='https://github.com/kojake';"><img style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
-                    </div>
-                </th>
-                <th>
-                    <div class="pc-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Akazu.png" alt="画像の説明"></div>
-                        <h3>あかず<p>Web Python 開発メンバー</h3>
-                        <a onclick="window.location.href='https://github.com/akazdayo';"><img style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
-                    </div>
-                    <div class="sp-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Akazu.png" alt="画像の説明"></div>
-                        <h3>あかず<p>Web Python 開発メンバー</h3>
-                        <a onclick="window.location.href='https://github.com/akazdayo';"><img style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
-                    </div>
-                </th>
-                <th>
-                    <div class="pc-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Shizuku_icon.png" alt="画像の説明"></div>
-                        <h3>SuitoShizuku<p>Python 開発メンバー</h3>
-                        <a onclick="window.location.href='https://github.com/SuitoShizuku';"><img style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
-                    </div>
-                    <div class="sp-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Shizuku_icon.png" alt="画像の説明"></div>
-                        <h3>SuitoShizuku<p>Python 開発メンバー</h3>
-                        <a onclick="window.location.href='https://github.com/SuitoShizuku';"><img style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
-                    </div>
-                </th>
-                <th>
-                    <div class="pc-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Marukun.png" alt="画像の説明"></div>
-                        <h3>Marukun<p>Web Python 開発メンバー</h3>
-                        <a onclick="window.location.href='https://github.com/marukun712';"><img style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
-                    </div>
-                    <div class="sp-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Marukun.png" alt="画像の説明"></div>
-                        <h3>Marukun<p>Web Python 開発メンバー</h3>
-                        <a onclick="window.location.href='https://github.com/marukun712';"><img style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
-                    </div>
-                </th>
-            </tr>
-        </table>
-        <table align="center">
-            <tr>
-                <th>
-                    <div class="pc-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Hazama.png" alt="画像の説明"></div>
-                        <h3>ハザマ<p>Web 開発メンバー</h3>
-                        <a onclick="window.location.href='https://github.com/roadmanbetween';"><img style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
-                    </div>
-                    <div class="sp-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Hazama.png" alt="画像の説明"></div>
-                        <h3>ハザマ<p>Web 開発メンバー</h3>
-                        <a onclick="window.location.href='https://github.com/roadmanbetween';"><img style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
-                    </div>
-                </th>
-                <th>
-                    <div class="pc-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Koushin.jpeg" alt="画像の説明"></div>
-                        <h3>Koushin<p>iOS開発メンバー</h3>
-                    </div>
-                    <div class="sp-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Koushin.jpeg" alt="画像の説明"></div>
-                        <h3>Koushin<p>iOS開発メンバー</h3>
-                    </div>
-                </th>
-                <th>
-                    <div class="pc-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Ayaka.jpg" alt="画像の説明"></div>
-                        <h3>Ayaka<p>イラストレーターメンバー</h3>
-                    </div>
-                    <div class="sp-profile-card" align="center">
-                        <div class="circle-frame"><img src="menber-image/Ayaka.jpg" alt="画像の説明"></div>
-                        <h3>Ayaka<p>イラストレーターメンバー</h3>
-                    </div>
-                </th>
-            </tr>
-        </table>
-        <p style="height: 100px;">
-        <h1>New Contents 2024.02.09</h1>
-        <img src="image/U Work show icon.png">
-        <section>
-            <a href="#target1" class="btn_10" onclick="window.location.href='https://uzulab.github.io/U-Work-Show-Site/';"><span>More</span></a>
-        </section>
+    <h1 style="font-size: 70px;">自分の力を最大限発揮できる<p>場所づくりを理念に</h1>
+
+    <p style="height: 150px"></p>
+
+    <!--About-->
+    <img id="about" style="width: 300px; height: 300px;" src="image/渦LAB_icon.png">
+    <div class="about" style="width: 1000px; height: 600px;">
+        <h1 style="font-size: 50px;">渦Labとは</h1>
+        <h2>
+            アプリ開発やWebアプリケーション開発のために誕生したコミュニティです。<p>
+                開発したWebアプリケーションやアプリはN中のLT大会や外部の大会で発表します。
+            <p>
+                プログラミングに興味ある人や得意な人が
+            <p>
+                自分の力を最大限発揮できるコミュニティを目指しております。
+            <p>
+        </h2>
+    </div>
+
+    <!--Menber-->
+    <h1 id="menber" style="font-size: 50px;">メンバー</h1>
+
+    <div class="wrapper">
+        <div class="box-area">
+            <div class="box">
+                <div class="img-box"><img alt="" src="menber-image/Kaito.PNG"></div>
+                <h2>Kaito</h2>
+                <h4>渦Lab代表 iOSアプリ開発メンバー</h4>
+                <a onclick="window.location.href='https://github.com/kojake';"><img style="width: 50px; height: 50px;"
+                        src="image/github-mark.png"></a>
+            </div>
+            <div class="box">
+                <div class="img-box"><img alt="" src="menber-image/Akazu.png"></div>
+                <h2>あかず</h2>
+                <h3>Webアプリ開発メンバー</h3>
+                <a onclick="window.location.href='https://github.com/akazdayo';"><img style="width: 50px; height: 50px;"
+                        src="image/github-mark.png"></a>
+            </div>
+            <div class="box">
+                <div class="img-box"><img alt="" src="menber-image/Shizuku_icon.png"></div>
+                <h2>SuitoShizuku</h2>
+                <h3>Webアプリ開発メンバー</h3>
+                <a onclick="window.location.href='https://github.com/SuitoShizuku';"><img
+                        style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
+            </div>
+            <div class="box">
+                <div class="img-box"><img alt="" src="menber-image/Marukun.png"></div>
+                <h2>Marukun</h2>
+                <h3>Webアプリ開発メンバー</h3>
+                <a onclick="window.location.href='https://github.com/marukun712';"><img
+                        style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
+            </div>
+            <div class="box">
+                <div class="img-box"><img alt="" src="menber-image/Hazama.png"></div>
+                <h2>ハザマ</h2>
+                <h3>Webアプリ開発メンバー</h3>
+                <a onclick="window.location.href='https://github.com/roadmanbetween';"><img
+                        style="width: 50px; height: 50px;" src="image/github-mark.png"></a>
+            </div>
+            <div class="box">
+                <div class="img-box"><img alt="" src="menber-image/Koushin.jpeg"></div>
+                <h2>Koushin</h2>
+                <h3>iOSアプリ開発メンバー</h3>
+            </div>
+            <div class="box">
+                <div class="img-box"><img alt="" src="menber-image/Ayaka.jpg"></div>
+                <h2>Ayaka</h2>
+                <h3>イラストレーター</h3>
+            </div>
+        </div>
+    </div>
+
+    <p style="height: 150px"></p>
+
+    <!--開発実績-->
+
+    <h1 id="Achievements" style="font-size: 50px;">開発実績</h1>
+
+    <div class="card" align="center">
+        <div class="card2">
+            <img style="width: 80px; height: 80px;" src="work-image/GotoSearchSpotsIcon.png">
+            <h3>場所探しWeb</h3>
+            <p>YahooAPIを使い入力した<p>地名から観光場所を検索してくれるサイトです。</p>
+            <a class="button-28" style="width: 200px; color: white;" onclick="window.location.href='https://search-sightseeing-spots-web.vercel.app/';">サイトに行く →</a>
+        </div>
+    </div>
+
+    <p style="height: 150px"></p>
+
+    <div class="kasaneru">
+        <img src="image/渦Lab BackgroundImage2.png">
         <h3>Copyright © 2023 渦Lab</h3>
-    </main>
+    </div>
 </body>
 
 </html>
